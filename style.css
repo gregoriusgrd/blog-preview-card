@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+
+:root {
+  --yellow: #f4d04e;
+  --gray-500: #6b6b6b;
+  --gray-950: #111111;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+  margin: 0;
+
+  background-color: var(--yellow);
+}
+
+.card-container {
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 8px 8px 0px 0px;
+
+  width: 327px;
+  padding: 2rem;
+}
+
+.card-image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  margin-top: 24px;
+}
+
+.card-category {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 82px;
+  height: 29px;
+
+  font-family: "Figtree", sans-serif;
+  font-size: 12px;
+  font-weight: 800;
+  background-color: #f4d04e;
+  line-height: 150%;
+  letter-spacing: normal;
+
+  border-radius: 4px;
+  color: var(--gray-950);
+}
+
+.card-publish-date {
+  font-family: "Figtree", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: normal;
+
+  color: var(--gray-950);
+}
+
+.card-title {
+  font-family: "Figtree", sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: normal;
+
+  color: var(--gray-950);
+
+  margin: 0;
+}
+
+.card-description {
+  font-family: "Figtree", sans-serif;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: normal;
+
+  color: var(--gray-500);
+}
+
+.card-author {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+
+  margin-top: 24px;
+}
+
+.card-author img {
+  width: 2rem;
+  margin-right: 0.75rem;
+}
+
+.card-author span {
+  font-family: "Figtree", sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 150%;
+  letter-spacing: normal;
+}
+
+@media screen and (min-width: 1025px) {
+  .card-container {
+    width: 528px;
+  }
+
+  .card-category {
+    font-size: 14px;
+  }
+
+  .card-publish-date {
+    font-size: 14px;
+  }
+
+  .card-title {
+    font-size: 24px;
+  }
+
+  .card-title:hover {
+    color: var(--yellow);
+    cursor: pointer;
+  }
+
+  .card-description {
+    font-size: 14px;
+  }
+}
