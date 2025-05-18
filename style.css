@@ -1,11 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
 
-:root {
-  --yellow: #f4d04e;
-  --gray-500: #6b6b6b;
-  --gray-950: #111111;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -20,7 +14,7 @@ body {
   height: 100vh;
   margin: 0;
 
-  background-color: var(--yellow);
+  background-color: #f4d04e;
 }
 
 .card-container {
@@ -62,7 +56,7 @@ body {
   letter-spacing: normal;
 
   border-radius: 4px;
-  color: var(--gray-950);
+  color: #111111;
 }
 
 .card-publish-date {
@@ -72,17 +66,17 @@ body {
   line-height: 150%;
   letter-spacing: normal;
 
-  color: var(--gray-950);
+  color: #111111;
 }
 
 .card-title {
   font-family: "Figtree", sans-serif;
-  font-weight: 800;
   font-size: 20px;
+  font-weight: 800;
   line-height: 150%;
   letter-spacing: normal;
 
-  color: var(--gray-950);
+  color: #111111;
 
   margin: 0;
 }
@@ -93,7 +87,7 @@ body {
   line-height: 150%;
   letter-spacing: normal;
 
-  color: var(--gray-500);
+  color: #6b6b6b;
 }
 
 .card-author {
@@ -106,7 +100,7 @@ body {
 
 .card-author img {
   width: 2rem;
-  margin-right: 0.75rem;
+  margin-right: 12px;
 }
 
 .card-author span {
@@ -135,7 +129,7 @@ body {
   }
 
   .card-title:hover {
-    color: var(--yellow);
+    color: #f4d04e;
     cursor: pointer;
   }
 
