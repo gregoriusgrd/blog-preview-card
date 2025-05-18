@@ -114,7 +114,7 @@ body {
   font-weight: 800;
   line-height: 150%;
   letter-spacing: normal;
-  color: var(--gray-500);
+  color: var(--gray-950);
 }
 
 @media screen and (min-width: 1025px) {
