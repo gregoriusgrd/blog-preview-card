@@ -43,7 +43,7 @@ body {
   flex-direction: column;
   gap: 0.75rem;
 
-  margin-top: 1.5rem;
+  margin-block-start: 1.5rem;
 }
 
 .card-category {
@@ -98,12 +98,12 @@ body {
   justify-content: start;
   align-items: center;
 
-  margin-top: 1.5rem;
+  margin-block-start: 1.5rem;
 }
 
 .card-author img {
   width: 2rem;
-  margin-right: 0.75rem;
+  margin-inline-end: 0.75rem;
 }
 
 .card-author span {
