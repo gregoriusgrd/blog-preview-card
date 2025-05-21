@@ -30,7 +30,7 @@ body {
   box-shadow: 8px 8px 0px 0px;
 
   width: 20rem;
-  padding: 2rem;
+  padding: 1.5rem;
 }
 
 .card-image img {
@@ -51,8 +51,8 @@ body {
   justify-content: center;
   align-items: center;
 
-  width: 82px;
-  height: 29px;
+  width: 5.125rem;
+  height: 1.8rem;
 
   font-family: "Figtree", sans-serif;
   font-size: 0.75rem;
@@ -71,7 +71,6 @@ body {
   font-weight: 500;
   line-height: 150%;
 
-
   color: var(--gray-950);
 }
 
@@ -80,7 +79,6 @@ body {
   font-size: 1.375rem;
   font-weight: 800;
   line-height: 150%;
-
 
   color: var(--gray-950);
 
@@ -110,14 +108,14 @@ body {
 
 .card-author span {
   font-family: "Figtree", sans-serif;
-  font-size: 0.875;
+  font-size: 0.875rem;
   font-weight: 800;
   line-height: 150%;
 
   color: var(--gray-950);
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 64rem) { /* 1025px */
   .card-container {
     width: 24rem;
   }
@@ -133,7 +131,7 @@ body {
   }
 
   .card-title:hover {
-    color: #f4d04e;
+    color: var(--yellow);
     cursor: pointer;
   }
 }
